@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile page of SocialBook</title>
+    <link rel="stylesheet" href="style/storyfeed.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/newsfeed.css">
+    <link rel="stylesheet" href="style/profile.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="left-nav">
+            <img src="icons/logo.png" alt="" class="logo">
+            <img src="icons/notification.png" alt="" class="notifications">
+            <img src="icons/inbox.png" alt="" class="inbox">
+            <img src="icons/video.png" alt="" class="video">
+        </div>
+        <div class="right-nav">
+            <div class="search-bar">
+                <img src="icons/search.png" alt="" class="search-icon">
+                <input type="text" class="search-box" placeholder="Search here">
+            </div>
+            <div class="profile-pic online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+                <!-- <div class="online-green-circle"></div> -->
+            </div>
+        </div>
+        <!-- -----------Settings Menu----------- -->
+        <div class="setting-menu">
+
+            <!-- Dark-Mode -->
+
+            <div id="dark-btn" >
+                <span>
+                </span>
+            </div>
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Nayon</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="icons/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="icons/setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="icons/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="icons/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="icons/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------profile page---------- -->
+
+
+
+    <div class="profile-container">
+        <img src="icons/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png">
+                    <div>
+                        <h3>Nrb Nayon</h3>
+                        <p>120 Friends - 20 mutual</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+    
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2023 - Nrb Nayon</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

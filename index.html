@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style/storyfeed.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/newsfeed.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="left-nav">
+            <img src="icons/logo.png" alt="" class="logo">
+            <img src="icons/notification.png" alt="" class="notifications">
+            <img src="icons/inbox.png" alt="" class="inbox">
+            <img src="icons/video.png" alt="" class="video">
+        </div>
+        <div class="right-nav">
+            <div class="search-bar">
+                <img src="icons/search.png" alt="" class="search-icon">
+                <input type="text" class="search-box" placeholder="Search here">
+            </div>
+            <div class="profile-pic online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+                <!-- <div class="online-green-circle"></div> -->
+            </div>
+        </div>
+        <!-- -----------Settings Menu----------- -->
+        <div class="setting-menu">
+
+            <!-- Dark-Mode -->
+
+            <div id="dark-btn" >
+                <span>
+                </span>
+            </div>
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Nayon</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="icons/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="icons/setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="icons/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="icons/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="icons/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="icons/arrow.png" width="10px"> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <nav>
+        <div class="nav-left">
+            <img src="icons/logo.png" alt="" class="logo">
+            <ul>
+                <li><img src="icons/notification.png" alt="" class="notifications"></li>
+                <li><img src="icons/inbox.png" alt="" class="inbox"></li>
+                <li><img src="icons/video.png" alt="" class="video"></li>
+            </ul>
+        </div>
+    </nav> -->
+    <!-- -----------------Main Container Start-------------- -->
+
+    <div class="container">
+        <!-- ------------Start Left-sidebar-------------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="icons/news.png" alt="">Latest News</a>
+                <a href="#"><img src="icons/friends.png" alt="">Friends</a>
+                <a href="#"><img src="icons/group.png" alt="">Group</a>
+                <a href="#"><img src="icons/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="icons/watch.png" alt="">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcut</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+        </div>
+        <!-- ------------Start Main-Content -------------- -->
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="icons/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-2.png" alt="">
+                    <p>Turza</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-3.png" alt="">
+                    <p>Mohidul</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-4.png" alt="">
+                    <p>Nayon</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-5.png" alt="">
+                    <p>Rahul</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Nayon</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Nay On?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"> <img src="icons/live-video.png" alt=""> Live Video</a>
+                        <a href="#"> <img src="icons/photo.png" alt=""> Photo/Video</a>
+                        <a href="#"> <img src="icons/feeling.png" alt=""> Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------Post----------- -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Nayon</p>
+                            <span>June 24 2021, 12:12 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">#Professonal</a></p>
+                <img src="images/feed-image-1.png" alt="" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icons/like-blue.png" alt=""> 120</div>
+                        <div><img src="icons/comments.png" alt="">45</div>
+                        <div><img src="icons/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Nayon</p>
+                            <span>June 24 2021, 12:12 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">#Professonal</a></p>
+                <img src="images/feed-image-2.png" alt="" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icons/like-blue.png" alt=""> 120</div>
+                        <div><img src="icons/comments.png" alt="">45</div>
+                        <div><img src="icons/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Nayon</p>
+                            <span>June 24 2021, 12:12 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">Professonal</a></p>
+                <img src="images/feed-image-3.png" alt="" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icons/like.png" alt=""> 120</div>
+                        <div><img src="icons/comments.png" alt="">45</div>
+                        <div><img src="icons/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Nayon</p>
+                            <span>June 24 2021, 12:12 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">#Professonal</a></p>
+                <img src="images/feed-image-4.png" alt="" class="post-img">
+                
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="icons/like-blue.png" alt=""> 120</div>
+                        <div><img src="icons/comments.png" alt="">45</div>
+                        <div><img src="icons/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more">Load More</button>
+        </div>
+
+
+
+        <!-- ------------Start Right-sidebar-------------- -->
+
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See all</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span> 
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Dhaka, BD</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span>March</span> 
+                </div>
+                <div class="right-event">
+                    <h4>Birthday</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Barisal, BD</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" alt="" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p>Turza Podder</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>Nayon</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p>Nahian</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+            Copyright 2023 - Nrb Nayon
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
