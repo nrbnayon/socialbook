@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/newsfeed.css">
     <link rel="stylesheet" href="style/profile.css">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-</head>
+    <script src="https://kit.fontawesome.com/b848eab2bb.js" crossorigin="anonymous"></script></head>
 <body>
     <div class="header">
         <div class="left-nav">
-            <img src="icons/logo.png" alt="" class="logo">
+            <a href="index.html">
+            <img src="icons/logo2.png" alt="" class="logo">
+            </a>
             <img src="icons/notification.png" alt="" class="notifications">
             <img src="icons/inbox.png" alt="" class="inbox">
             <img src="icons/video.png" alt="" class="video">
@@ -45,7 +46,7 @@
                     <img src="images/profile-pic.png" alt="">
                     <div>
                         <p>Nayon</p>
-                        <a href="#">See Your Profile</a>
+                        <a href="index.html">See Your Profile</a>
                     </div>
                 </div>
                 <hr>
@@ -86,18 +87,217 @@
         <div class="profile-details">
             <div class="pd-left">
                 <div class="pd-row">
-                    <img src="images/profile.png">
+                    <img src="images/profile.png" class="pd-image">
                     <div>
                         <h3>Nrb Nayon</h3>
                         <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
                     </div>
                 </div>
             </div>
             <div class="pd-right">
-    
+                <button type="button"><img src="icons/add-friends.png"> Friends</button>
+                <button type="button"><img src="icons/message.png"> Message</button>
+                <br>
+                <a href="#"><img src="icons/more.png"></a>
             </div>
         </div>
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Bio</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="icons/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="icons/profile-job.png"> Director at 99 media Ltd</li>
+                        <li><img src="icons/profile-study.png"> Studied at UIU</li>
+                        <li><img src="icons/profile-study.png"> Went to PGSC</li>
+                        <li><img src="icons/profile-home.png"> Lives in Dhaka, Bangladesh</li>
+                        <li><img src="icons/profile-location.png"> From Dhaka, Bangladesh</li>
+                    </ul>
+                </div> 
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="stories/photo1.png"></div>
+                        <div><img src="stories/photo2.png"></div>
+                        <div><img src="stories/photo3.png"></div>
+                        <div><img src="stories/photo4.png"></div>
+                        <div><img src="stories/photo5.png"></div>
+                        <div><img src="stories/photo6.png"></div>
+                    </div>
+                </div>
+    
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (20 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png"><p>Nayon</p></div>
+                        <div><img src="images/member-2.png"><p>Nayon</p></div>
+                        <div><img src="images/member-3.png"><p>Nayon</p></div>
+                        <div><img src="images/member-4.png"><p>Nayon</p></div>
+                        <div><img src="images/member-5.png"><p>Jony</p></div>
+                        <div><img src="images/member-6.png"><p>Nayon</p></div>
+                        <div><img src="images/member-7.png"><p>Nayon</p></div>
+                        <div><img src="images/member-8.png"><p>Nayon</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Nayon</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Nay On?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"> <img src="icons/live-video.png" alt=""> Live Video</a>
+                            <a href="#"> <img src="icons/photo.png" alt=""> Photo/Video</a>
+                            <a href="#"> <img src="icons/feeling.png" alt=""> Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nayon</p>
+                                <span>June 24 2021, 12:12 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">#Professonal</a></p>
+                    <img src="images/feed-image-1.png" alt="" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/like-blue.png" alt=""> 120</div>
+                            <div><img src="icons/comments.png" alt="">45</div>
+                            <div><img src="icons/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nayon</p>
+                                <span>June 24 2021, 12:12 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">#Professonal</a></p>
+                    <img src="images/feed-image-2.png" alt="" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/like-blue.png" alt=""> 120</div>
+                            <div><img src="icons/comments.png" alt="">45</div>
+                            <div><img src="icons/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nayon</p>
+                                <span>June 24 2021, 12:12 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">Professonal</a></p>
+                    <img src="images/feed-image-3.png" alt="" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/like.png" alt=""> 120</div>
+                            <div><img src="icons/comments.png" alt="">45</div>
+                            <div><img src="icons/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nayon</p>
+                                <span>June 24 2021, 12:12 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">This is <span>@Nayon</span> Full stack Web Devloper, Software Devloper <a href="#">#Professonal</a></p>
+                    <img src="images/feed-image-4.png" alt="" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="icons/like-blue.png" alt=""> 120</div>
+                            <div><img src="icons/comments.png" alt="">45</div>
+                            <div><img src="icons/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="load-more">Load More</button>
+            </div>
+            </div>
+        </div>
+
+
     </div>
+
+
+
+
+
+
+
     <div class="footer">
         <p>Copyright 2023 - Nrb Nayon</p>
     </div>
