@@ -1,7 +1,7 @@
 # socialbook
 # SocialBook Frontend
 ![SocialBook Logo](icons/logo.png)
-### Live [Watch Link: -](https://nsocialmedia.netlify.app)
+### Live [Watch Link: -](https://nsocialmedia.netlify.app)  https://nsocialmedia.netlify.app
 
 Discover the immersive world of SocialBook, a responsive and feature-rich frontend built with HTML, CSS, and JavaScript. Similar to Facebook, this platform offers a seamless social networking experience. What sets it apart is the inclusion of both Dark and Light modes, allowing users to customize their viewing experience. 
 
